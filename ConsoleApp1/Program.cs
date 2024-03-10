@@ -28,7 +28,7 @@ namespace ConsoleApp1
             for(int a = 0; a < b.Length; a++){
                 sum += b[a];
             }
-            Console.WriteLine(sum/b.Length);
+            Console.WriteLine("The average of the given array is: {0}", sum/b.Length);
         }
     }
 }
