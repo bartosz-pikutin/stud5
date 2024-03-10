@@ -5,9 +5,16 @@ namespace ConsoleApp1
     public class Program 
     {
         static void Main(string[] args){
-            Console.WriteLine("Jak masz na imie?");
-            string name = Console.ReadLine();
-            Console.WriteLine($"Cześć {name}");
+           
+            int a = 0;
+            int b = 0;
+
+            Console.WriteLine("Podaj liczbe 1");
+            a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Podaj liczbe 2");
+            b = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(a + b);
 
         }   
     }
