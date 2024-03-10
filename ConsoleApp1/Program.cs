@@ -8,6 +8,7 @@ namespace ConsoleApp1
            
             int[] a = [13, 2, 100, 5, 12, 4, 3];
             //countAverageFromIntArray(a);
+            writeMaxValueFromIntArray(a);
 
            /* int a = 0;
             int a = 0;
@@ -31,7 +32,14 @@ namespace ConsoleApp1
             Console.WriteLine("The average of the given array is: {0}", sum/b.Length);
         }
          static void writeMaxValueFromIntArray(int[] c){
-         
+            int max = c[0];
+
+            for(int a = 0; a < c.Length; a++){
+                if (max <= c[a])
+                    max = c[a];
+            }
+
+            Console.WriteLine(max);
         }
 
 
