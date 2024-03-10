@@ -6,7 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args){
            
-            int[] a = [13, 2, 100, 5, 12, 4, 3];
+            int[] a = [-13, 2, -100, 5, 12, 4, 3];
             //countAverageFromIntArray(a);
             writeMaxValueFromIntArray(a);
 
