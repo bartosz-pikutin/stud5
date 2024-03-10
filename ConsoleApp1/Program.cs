@@ -1,4 +1,4 @@
-﻿﻿using System;
+﻿using System;
 
 namespace ConsoleApp1
 {
@@ -6,8 +6,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args){
            
-            int[] a = [2, 5, 12, 4, 3];
-            countAverageFromIntArray(a);
+            int[] a = [13, 2, 100, 5, 12, 4, 3];
+            //countAverageFromIntArray(a);
 
            /* int a = 0;
             int a = 0;
