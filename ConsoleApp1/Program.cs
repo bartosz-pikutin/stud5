@@ -16,6 +16,8 @@ namespace ConsoleApp1
 
             Console.WriteLine(a + b);
 
+            Console.WriteLine("coś tam " + a + " i jeszcze o to " + b);
+
         }   
     }
 }
