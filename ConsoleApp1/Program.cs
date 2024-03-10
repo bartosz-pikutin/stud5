@@ -30,6 +30,12 @@ namespace ConsoleApp1
             }
             Console.WriteLine("The average of the given array is: {0}", sum/b.Length);
         }
+         static void writeMaxValueFromIntArray(int[] c){
+         
+        }
+
+
+
     }
 }
 
