@@ -6,6 +6,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args){
            
+            int[] a = [2, 5, 12, 4, 3];
+            countAverageFromIntArray(a);
+
+           /* int a = 0;
             int a = 0;
             int b = 0;
 
@@ -17,8 +21,15 @@ namespace ConsoleApp1
             Console.WriteLine(a + b);
 
             Console.WriteLine("coś tam " + a + " i jeszcze o to " + b);
-
+            */
         }   
+        static void countAverageFromIntArray(int[] b){
+            float sum = 0;
+            for(int a = 0; a < b.Length; a++){
+                sum += b[a];
+            }
+            Console.WriteLine("The average of the given array is: {0}", sum/b.Length);
+        }
     }
 }
 
