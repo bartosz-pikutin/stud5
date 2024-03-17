@@ -24,7 +24,11 @@ namespace ConsoleApp1
             Console.WriteLine("coś tam " + a + " i jeszcze o to " + b);
             */
         }   
+<<<<<<< HEAD
         static void countAverageFromIntArrayAlsoDifferentName(int[] b){
+=======
+        static void countAverageFromIntArrayModifiedName(int[] b){
+>>>>>>> feature-new
             float sum = 0;
             for(int a = 0; a < b.Length; a++){
                 sum += b[a];
